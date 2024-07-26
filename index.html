@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mystery Digits Cards Game</title>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+
+<h1 class="game-name">Mystery Digits</h1>
+
+<button id="score">Score board </button>
+<div id="input-btn-div" class="input-btn-div">
+  <p class="inp-line">Reveal the Mystery, Enter a Number</p>
+  <div class="inp-div">
+<input id="input" type="number" class="input" maxlength="2">
+<button id="inp-btn" class="inp-btn">Enter</button></div>
+</div>
+    <div class="grid-container">
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard1">
+          <div class="flip-card-front">
+            <h2>Can you Guess it? <br> <img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard1')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 1</h2>
+            <button class="flip-btn" onclick="flipCard('flipCard1')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard2">
+          <div class="flip-card-front">
+            <h2>Can you Guess it? <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard2')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 2</h2>
+            <button onclick="flipCard('flipCard2')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard3">
+          <div class="flip-card-front">
+            <h2>Can you Guess it?  <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard3')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 3</h2>
+            <button onclick="flipCard('flipCard3')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard4">
+          <div class="flip-card-front">
+            <h2>Can you Guess it? <br> <img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard4')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 4</h2>
+            <button onclick="flipCard('flipCard4')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard5">
+          <div class="flip-card-front">
+            <h2> Can you Guess it?  <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard5')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 5</h2>
+            <button onclick="flipCard('flipCard5')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard6">
+          <div class="flip-card-front">
+            <h2> Can you Guess it? <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard6')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 6</h2>
+            <button onclick="flipCard('flipCard6')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard7">
+          <div class="flip-card-front">
+            <h2> Can you Guess it? <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard7')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 7</h2>
+            <button onclick="flipCard('flipCard7')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard8">
+          <div class="flip-card-front">
+            <h2> Can you Guess it? <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard8')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 8</h2>
+            <button onclick="flipCard('flipCard8')">Flip Card</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flip-card">
+        <div class="flip-card-inner" id="flipCard9">
+          <div class="flip-card-front">
+            <h2> Can you Guess it? <br><img class="gif" src="src/img/Thinking-Emoji-unscreen.gif" alt=""></h2>
+            <button class="flip-btn" onclick="flipCard('flipCard9')">
+              Flip Card
+            </button>
+          </div>
+          <div class="flip-card-back">
+            <h2 class="back-side">Back Side 9</h2>
+            <button onclick="flipCard('flipCard9')">Flip Card</button>
+          </div>
+
+        </div>
+      </div>
+      <!-- Repeat for 7 more cards -->
+      <!-- Adjust the content and onclick function as needed -->
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="src/script.js"></script>
+  </body>
+</html>
